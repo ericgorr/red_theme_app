@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EmbeddedEditorHidden:ericgorr</key>
+	<false/>
+	<key>ExpandedEditorWidth:ericgorr:displays([(0, 0), (2560, 1600)]:[(2560, 520), (1920, 1080)])</key>
+	<integer>738</integer>
+	<key>ExpandedItems:ericgorr</key>
+	<array/>
+	<key>FileFilterMode:ericgorr</key>
+	<integer>0</integer>
+	<key>OpenDocuments:ericgorr</key>
+	<array/>
+	<key>OpenDocumentsExpanded</key>
+	<true/>
+	<key>OpenDocumentsSplitterProportion</key>
+	<real>0.69986540079116821</real>
+	<key>ProjectViewVisible</key>
+	<true/>
+	<key>RecentItems:ericgorr</key>
+	<array/>
+	<key>ScratchpadItemsExpanded</key>
+	<true/>
+	<key>ScratchpadItemsVisible</key>
+	<true/>
+	<key>ShowSCMData:ericgorr</key>
+	<false/>
+	<key>ToolbarVisible:ericgorr</key>
+	<true/>
+	<key>ViewSplitterPosition:ericgorr</key>
+	<real>0.29942965507507324</real>
+	<key>WindowFrame:ericgorr:displays([(0, 0), (2560, 1600)]:[(2560, 520), (1920, 1080)])</key>
+	<string>rect(45,0,1531,1052)</string>
+</dict>
+</plist>
