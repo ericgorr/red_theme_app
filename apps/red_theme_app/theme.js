@@ -15,6 +15,7 @@
 //
 // NOTE: if you want to change the theme this one is based on, don't
 // forget to change the :css_theme property in your buildfile.
+
 RedThemeApp.Theme = SC.AceTheme.create({
   name: 'red-theme-app'
 });
@@ -25,3 +26,6 @@ SC.Theme.addTheme(RedThemeApp.Theme);
 // Setting it as the default theme makes every pane SproutCore
 // creates default to this theme unless otherwise specified.
 SC.defaultTheme = 'red-theme-app';
+
+
+RedThemeApp.Theme.Error = RedThemeApp.Theme.subtheme('error');

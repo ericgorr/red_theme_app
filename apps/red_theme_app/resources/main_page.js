@@ -15,6 +15,7 @@ RedThemeApp.mainPage = SC.Page.design({
 
     button: SC.ButtonView.extend({
       classNames: ['welcome-label'],
+      themeName: 'error',
       layout: { top: 10, left: 10, width: 300, height: 24 },
       title: "Welcome to SproutCore!"
     })

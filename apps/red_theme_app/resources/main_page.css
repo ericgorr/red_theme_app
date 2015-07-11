@@ -12,9 +12,3 @@
 // Learn more on styling your app here: http://sproutcore.com/guides/chance.html
 
 // Example.  This style is applied to the labelView child view.
-$theme.sc-label-view.welcome-label {
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  text-shadow: rgba(255, 255, 255, 0.5) 0 1px 1px;
-}
