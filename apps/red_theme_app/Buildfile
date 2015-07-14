@@ -8,7 +8,10 @@
 # Buildfile, which contains default settings for all apps in your project.
 #
 # To learn more about configuring the Buildfile, please visit
-# http://guides.sproutcore.com/build_tools.html.
-
+# http://guides.sproutcore.com/build_tools.html. 
+#
+# , :theme => red-look
+# 
 # It is better to add :required targets here than in the global Buildfile.
-config :red_theme_app, :required => :sproutcore
+#
+config :red_theme_app, :required => :sproutcore, :theme => 'red_look'

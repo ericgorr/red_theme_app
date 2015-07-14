@@ -1,0 +1,3 @@
+config :red_look, :required => ['sproutcore/ace'], :css_theme => 'ace.red-look'
+
+

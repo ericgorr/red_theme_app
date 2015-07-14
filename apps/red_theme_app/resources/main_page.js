@@ -11,13 +11,25 @@ RedThemeApp.mainPage = SC.Page.design({
   // Add childViews to this pane for views to display immediately on page
   // load.
   mainPane: SC.MainPane.design({
-    childViews: ['button'],
+    childViews: ['button', 'textfield'],
+    themeName:  'red-look',
 
     button: SC.ButtonView.extend({
       classNames: ['welcome-label'],
       layout: { top: 10, left: 10, width: 300, height: 24 },
       title: "Welcome to SproutCore!"
-    })
+    }),
+    
+    textfield: SC.TextFieldView.extend({
+    	layout: { top: 50, left: 10, width: 300, height: 100 },
+    	
+    	isTextArea: true,
+    	isEditable: false,
+    	isBrowserFocusable: false,
+    	acceptsFirstResponder: false,
+    	value: 'some text'
+	})
+
   })
 
 });
