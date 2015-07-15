@@ -21,6 +21,8 @@ RedThemeApp.mainPage = SC.Page.design({
     }),
     
     textfield: SC.TextFieldView.extend({
+    	classNames: ['thefield'],
+    	
     	layout: { top: 50, left: 10, width: 300, height: 100 },
     	
     	isTextArea: true,
@@ -29,7 +31,5 @@ RedThemeApp.mainPage = SC.Page.design({
     	acceptsFirstResponder: false,
     	value: 'some text'
 	})
-
   })
-
 });
